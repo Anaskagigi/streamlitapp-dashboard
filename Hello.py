@@ -76,7 +76,7 @@ else:
         st.plotly_chart(map_fig, use_container_width=True)
 
     # Recommendations for Improving Global Death Rates
-    st.header('Recommendations for Improving Global Death Rates Due to Water Contaminants')
+    st.header('Recommendations for Improving Global Death Rates')
     st.markdown("""
     - **Improved Water Infrastructure**: Invest in modernizing water supply and sanitation systems, especially in underdeveloped and developing regions. This includes the construction of new water treatment plants, renovation of old pipelines, and introduction of efficient sewage disposal systems to prevent water source contamination.
     - **Strict Regulation and Monitoring**: Implement strict water quality regulations and enforce them rigorously. This includes regular monitoring of water sources, treatment plants, and distribution systems to ensure compliance with safety standards.
