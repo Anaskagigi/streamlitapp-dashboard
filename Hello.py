@@ -8,7 +8,7 @@ st.set_page_config(page_title='Death Rate Dashboard', layout='wide')
 # Load the data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('Death_rate.csv')
+    df = pd.read_csv('data/Death_rate.csv')
     # Normalize column names: remove spaces, convert to lowercase
     df.columns = [x.strip().replace(' ', '_').lower() for x in df.columns]
     # Rename 'entity' to 'Country' for better readability
