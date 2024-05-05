@@ -3,3 +3,5 @@ numpy
 pandas
 pydeck
 streamlit
+plotly > 5.22.0
+plotly.express
