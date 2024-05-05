@@ -11,7 +11,7 @@ st.set_page_config(page_title='Death Rate Dashboard', layout='wide')
 def load_data():
     """Load and preprocess data."""
     try:
-        df = pd.read_csv('/workspaces/streamlitapp-dashboard/data/Death_rate.csv')
+        df = pd.read_csv('data/Death_rate.csv')
         df.columns = [x.strip().replace(' ', '_').lower() for x in df.columns]
         df.rename(columns={'entity': 'country'}, inplace=True)
         return df
